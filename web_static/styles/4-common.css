@@ -1,6 +1,7 @@
 /* Common styles */
 
 body {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
     font-family: Circular, "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -9,6 +10,8 @@ body {
 }
 
 .container {
+    width: 1000px;
     max-width: 1000px;
     margin: 30px auto;
+    padding: 0 20px;
 }
