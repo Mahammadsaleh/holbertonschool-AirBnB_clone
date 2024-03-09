@@ -25,16 +25,15 @@
   opacity: 0.9;
 }
 .locations {
-    margin-left: 20px;
+  margin-left: 5%;
   border-right: 1px solid #dddddd;
   height: 100%;
   width: 25%;
 }
 .amenities {
-  margin-left: 20px;
+  margin-left: 5%;
   height: 100%;
   width: 25%;
-  
 }
 .locations h3,
 .amenities h3 {
