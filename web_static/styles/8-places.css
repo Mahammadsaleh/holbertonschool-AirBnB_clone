@@ -1,0 +1,118 @@
+.places {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  font-size: 30px;
+}
+.places h1 {
+  padding-left: 20px;
+  width: 100%;
+}
+.places article {
+  position: relative;
+  width: 390px;
+  padding: 20px;
+  margin: 20px;
+  border: 1px solid #ff5a5f;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.places article h2 {
+ padding-top: 20px;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 30px;
+}
+
+.price_by_night {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  color: #ff5a5f;
+  border: 4px solid #ff5a5f;
+  vertical-align: middle;
+  line-height: 55px;
+  text-align: center;
+  padding: 10px;
+  border-radius: 50px;
+  min-width: 60px;
+  height: 60px;
+  font-size: 30px;
+}
+
+.information {
+  height: 80px;
+  border-top: 1px solid #dddddd;
+  border-bottom: 1px solid #dddddd;
+  display: flex;
+  align-items: center;
+  margin-top: 60px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  justify-content: center;
+}
+.max_guest {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 100px;
+  height: 100%;
+  background-image: url(../images/people.png);
+  background-repeat: no-repeat;
+
+  background-position: top center; /* Align the background image to the bottom */
+}
+
+.max_guest span {
+  font-size: 18px;
+  width: 100px;
+  padding-top: 20px;
+  margin-top: 50px;
+}
+.number_rooms {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  height: 100%;
+  width: 100px;
+  background-image: url(../images/bed.png);
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+.number_rooms span {
+  font-size: 18px;
+  width: 100px;
+  padding-top: 20px;
+  margin-top: 50px;
+}
+.number_bathrooms {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 100px;
+  height: 100%;
+  background-image: url(../images/bath.png);
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+.number_bathrooms span {
+  font-size: 18px;
+  width: 100px;
+  padding-top: 20px;
+  margin-top: 50px;
+}
+.user {
+    font-size: 26px;
+  margin-top: 30px;
+}
+.description {
+    font-size: 18px;
+  padding-top: 10px;
+  padding-bottom: 40px;
+
+}
