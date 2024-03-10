@@ -71,6 +71,7 @@
 .max_guest span {
   font-size: 18px;
   width: 100px;
+  text-align: center;
   padding-top: 20px;
   margin-top: 50px;
 }
@@ -87,6 +88,7 @@
 .number_rooms span {
   font-size: 18px;
   width: 100px;
+  text-align: center;
   padding-top: 20px;
   margin-top: 50px;
 }
@@ -102,6 +104,7 @@
 }
 .number_bathrooms span {
   font-size: 18px;
+  text-align: center;
   width: 100px;
   padding-top: 20px;
   margin-top: 50px;
